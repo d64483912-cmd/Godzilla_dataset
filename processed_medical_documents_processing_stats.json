@@ -1,0 +1,9 @@
+{
+  "total_records": 21523,
+  "cleaned_records": 548,
+  "merged_fragments": 20953,
+  "removed_artifacts": 22,
+  "removed_copyright": 2545,
+  "empty_removed": 0,
+  "duplicates_removed": 0
+}
