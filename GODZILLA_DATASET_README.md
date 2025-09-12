@@ -19,7 +19,7 @@ The **GODZILLA Medical Dataset** is the ultimate combination of the processed me
 - **Expert-Level Content**: All content classified as expert-level medical knowledge
 
 ### 2. **Advanced AI Features**
-- **Unified Schema**: 16 essential fields optimized for ML training
+- **Unified Schema**: consistent fields optimized for ML training
 - **Quality Ranking**: Records sorted by unified confidence scores
 - **Medical Classification**: Every record tagged with specialty and concepts
 - **Educational Integration**: Learning objectives and reading difficulty for each record
@@ -59,7 +59,8 @@ The **GODZILLA Medical Dataset** is the ultimate combination of the processed me
 - `text`: Primary medical content (truncated to 5,000 characters for efficiency)
 - `medical_specialty`: Classified medical domain
 - `keywords`: Extracted medical terms
-- `chunk_token_count`: Content length metrics
+- `word_count`: Number of words in text (post-truncation)
+- `chunk_token_count`: Legacy length field from source datasets; often equals word count; not a true tokenizer token count
 - `confidence_score`: Unified quality assessment
 
 ### Enhanced Medical Features
@@ -110,7 +111,7 @@ The **GODZILLA Medical Dataset** is the ultimate combination of the processed me
 ### ML-Optimized Structure
 - **Consistent Schema**: Uniform field structure across all records
 - **Categorical Features**: Pre-classified specialties and difficulty levels
-- **Numerical Metrics**: Token counts and scores ready for ML pipelines
+- **Numerical Metrics**: Length metrics (word count) and scores ready for ML pipelines
 - **Hierarchical Organization**: Source tracking enables stratified sampling
 
 ### Production-Ready Features
@@ -124,7 +125,7 @@ The **GODZILLA Medical Dataset** is the ultimate combination of the processed me
 - **🔥 Medical Authority**: Gold-standard pediatric content + multi-specialty expertise
 - **📈 Quality Supremacy**: 0.845 average quality score (industry-leading)
 - **🌍 Comprehensive Coverage**: 16 medical specialties, all age groups
-- **🚀 AI-Optimized**: 16-field unified schema perfect for ML training
+- **🚀 AI-Optimized**: unified schema perfect for ML training
 - **💪 Production-Ready**: 32MB of pure, structured medical intelligence
 
 ---

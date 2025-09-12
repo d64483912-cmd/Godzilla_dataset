@@ -19,13 +19,14 @@ def create_godzilla_dataset():
     
     godzilla_records = []
     stats = {}
+    unify_time = datetime.now().isoformat()
     
     # Unified schema for combined dataset
     schema = [
-        'id', 'source_dataset', 'text', 'medical_specialty', 'keywords', 
-        'chunk_token_count', 'confidence_score', 'page_number', 'source_file',
+        'id', 'source_dataset', 'text', 'medical_specialty', 'keywords',
+        'chunk_token_count', 'word_count', 'confidence_score', 'page_number', 'source_file',
         'book_title', 'chapter_title', 'age_groups', 'clinical_relevance_score',
-        'reading_difficulty', 'learning_objectives', 'created_at'
+        'reading_difficulty', 'learning_objectives', 'created_at', 'godzilla_created_at'
     ]
     
     # Process medical documents (548 records)
@@ -35,13 +36,15 @@ def create_godzilla_dataset():
         with open('processed_medical_documents.csv', 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for record in reader:
+                text = record.get('text', '')[:5000]
                 unified_record = {
                     'id': record.get('id', ''),
                     'source_dataset': 'medical_documents',
-                    'text': record.get('text', '')[:5000],  # Truncate very long texts
+                    'text': text,
                     'medical_specialty': record.get('medical_specialty', 'general'),
                     'keywords': record.get('keywords', ''),
                     'chunk_token_count': record.get('chunk_token_count', '0'),
+                    'word_count': len(text.split()),
                     'confidence_score': record.get('confidence_score', '0.5'),
                     'page_number': record.get('page_number', ''),
                     'source_file': record.get('source_file', ''),
@@ -51,7 +54,8 @@ def create_godzilla_dataset():
                     'clinical_relevance_score': '0.5',
                     'reading_difficulty': 'expert',
                     'learning_objectives': 'Apply medical knowledge in clinical practice',
-                    'created_at': record.get('created_at', '')
+                    'created_at': record.get('created_at', ''),
+                    'godzilla_created_at': unify_time
                 }
                 godzilla_records.append(unified_record)
                 med_count += 1
@@ -69,14 +73,15 @@ def create_godzilla_dataset():
                 text = record.get('chunk_text', '')
                 if not text:
                     text = record.get('text', '')
-                
+                truncated = text[:5000]
                 unified_record = {
                     'id': record.get('id', ''),
                     'source_dataset': 'nelson_enhanced',
-                    'text': text[:5000],  # Truncate very long texts
+                    'text': truncated,
                     'medical_specialty': 'pediatrics',
                     'keywords': record.get('keywords', ''),
                     'chunk_token_count': record.get('chunk_token_count', '0'),
+                    'word_count': len(truncated.split()),
                     'confidence_score': record.get('confidence_score', '0.5'),
                     'page_number': record.get('page_number', ''),
                     'source_file': record.get('book_title', 'Nelson Textbook of Pediatrics'),
@@ -86,7 +91,8 @@ def create_godzilla_dataset():
                     'clinical_relevance_score': record.get('clinical_relevance_score', '0.5'),
                     'reading_difficulty': record.get('reading_difficulty', 'expert'),
                     'learning_objectives': record.get('learning_objectives', 'Apply pediatric knowledge'),
-                    'created_at': record.get('created_at', '')
+                    'created_at': record.get('created_at', ''),
+                    'godzilla_created_at': unify_time
                 }
                 godzilla_records.append(unified_record)
                 nelson_count += 1
