@@ -1,0 +1,21 @@
+🤗 Initializing Hugging Face Medical Embeddings
+🏥 Model: microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract
+💻 Device: cpu
+🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖
+GODZILLA MEDICAL DATASET → HUGGING FACE EMBEDDINGS
+🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖
+📥 Loading BioBERT model...
+✅ Model loaded successfully!
+📖 Loading dataset from godzilla_medical_dataset.csv...
+✅ Loaded 9616 records
+🧠 Generating embeddings for 9616 texts...
+  Processing batch 1/301
+  Processing batch 2/301
+  Processing batch 3/301
+  Processing batch 4/301
+  Processing batch 5/301
+  Processing batch 6/301
+  Processing batch 7/301
+  Processing batch 8/301
+  Processing batch 9/301
+  Processing batch 10/301
