@@ -14,12 +14,10 @@ import hashlib
 
 # Try to import required libraries
 try:
-    import pinecone
     from pinecone import Pinecone, ServerlessSpec
 except ImportError:
     print("❌ Pinecone library not found. Installing...")
-    os.system("pip install pinecone-client")
-    import pinecone
+    os.system("pip install pinecone")
     from pinecone import Pinecone, ServerlessSpec
 
 try:

@@ -1,0 +1,10 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "total_records": 9616,
+  "embedding_dimension": 384,
+  "start_time": "2025-09-14T10:50:16.013454",
+  "end_time": "2025-09-14T10:59:12.111682",
+  "duration_seconds": 536.098228,
+  "storage_size_mb": 14.0859375,
+  "embeddings_per_second": 17.93701134934548
+}
