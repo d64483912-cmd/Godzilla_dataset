@@ -1,0 +1,12 @@
+{
+  "upload_timestamp": "2025-09-14T13:48:13.371363",
+  "supabase_url": "https://bnjthwrpigvchbhsmfec.supabase.co",
+  "total_records": 9616,
+  "successful_uploads": 4266,
+  "failed_uploads": 5350,
+  "success_rate": 44.36356073211314,
+  "duration_seconds": 84.427851,
+  "embedding_dimensions": 384,
+  "batch_size": 50,
+  "total_batches": 193
+}
