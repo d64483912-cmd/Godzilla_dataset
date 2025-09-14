@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import SplashScreen from './components/SplashScreen'
 import MainLayout from './components/layout/MainLayout'
+import { ChatInterface } from './components/chat/ChatInterface'
+import { NavigationDrawer } from './components/navigation/NavigationDrawer'
 import { ThemeProvider } from './components/ui/ThemeProvider'
 import { AccessibilityProvider } from './components/ui/AccessibilityProvider'
 import { PWAUpdateNotification } from './components/ui/PWAUpdateNotification'
@@ -13,6 +15,7 @@ import { initializeApp } from './utils/app-initialization'
 function App() {
   const [showSplash, setShowSplash] = useState(true)
   const [isInitialized, setIsInitialized] = useState(false)
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const { user, loadUserPreferences } = useUserStore()
   const { initializeChatHistory } = useChatStore()
 
@@ -87,9 +90,17 @@ function App() {
               {showSplash ? (
                 <SplashScreen key="splash" />
               ) : (
-                <MainLayout key="main" />
+                <MainLayout key="main" onMenuClick={() => setIsDrawerOpen(true)}>
+                  <ChatInterface className="h-full" />
+                </MainLayout>
               )}
             </AnimatePresence>
+            
+            {/* Navigation Drawer */}
+            <NavigationDrawer
+              isOpen={isDrawerOpen}
+              onClose={() => setIsDrawerOpen(false)}
+            />
             
             {/* PWA Update Notification */}
             <PWAUpdateNotification />
@@ -147,4 +158,3 @@ function App() {
 }
 
 export default App
-
