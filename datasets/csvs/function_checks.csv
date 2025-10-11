@@ -1,0 +1,6 @@
+id,function_name,function_url,status,response_time_ms,error_message,error_code,checked_at,created_at
+550e8400-e29b-41d4-a716-446655441101,medical-search,https://api.example.com/medical-search,success,1850,,200,2024-01-01T12:00:00Z,2024-01-01T12:00:00Z
+550e8400-e29b-41d4-a716-446655441102,drug-interaction-check,https://api.example.com/drug-interactions,success,1200,,200,2024-01-01T12:00:00Z,2024-01-01T12:00:00Z
+550e8400-e29b-41d4-a716-446655441103,dosage-calculator,https://api.example.com/dosage-calc,success,950,,200,2024-01-01T12:00:00Z,2024-01-01T12:00:00Z
+550e8400-e29b-41d4-a716-446655441104,clinical-decision-support,https://api.example.com/clinical-support,error,5000,Request timeout,504,2024-01-01T12:00:00Z,2024-01-01T12:00:00Z
+550e8400-e29b-41d4-a716-446655441105,learning-analytics,https://api.example.com/learning-analytics,success,2100,,200,2024-01-01T12:00:00Z,2024-01-01T12:00:00Z

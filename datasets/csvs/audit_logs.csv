@@ -1,0 +1,7 @@
+id,user_sub_hash,event,details,created_at
+1,hash_user_001,login,"{""device"": ""mobile"", ""location"": ""192.168.1.100"", ""user_agent"": ""Mozilla/5.0 (iPhone)""}",2024-01-01T10:30:00Z
+2,hash_user_002,query_submitted,"{""query_type"": ""medication"", ""specialty"": ""pediatrics"", ""age_group"": ""infant""}",2024-01-01T14:15:00Z
+3,hash_user_003,emergency_query,"{""query_type"": ""diagnosis"", ""urgency"": ""high"", ""topic"": ""head_injury""}",2024-01-01T16:45:00Z
+4,hash_user_001,feedback_submitted,"{""rating"": 4, ""feedback"": ""helpful response"", ""topic"": ""respiratory""}",2024-01-01T10:45:00Z
+5,hash_user_004,profile_updated,"{""field"": ""specialty"", ""new_value"": ""pediatric_emergency""}",2024-01-01T09:20:00Z
+6,hash_user_002,logout,"{""session_duration"": 600, ""queries_submitted"": 2}",2024-01-01T14:25:00Z

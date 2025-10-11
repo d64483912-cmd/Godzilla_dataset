@@ -1,0 +1,13 @@
+id,age_group_code,age_group_name,min_age_days,max_age_days,description
+1,neonate,Neonate,0,28,Newborn from birth to 28 days
+2,infant,Infant,29,365,Baby from 1 month to 12 months
+3,toddler,Toddler,366,1095,Child from 1 year to 3 years
+4,preschool,Preschooler,1096,1825,Child from 3 years to 5 years
+5,school_age,School Age,1826,4380,Child from 5 years to 12 years
+6,adolescent,Adolescent,4381,6570,Teen from 12 years to 18 years
+7,young_adult,Young Adult,6571,9125,Adult from 18 years to 25 years
+8,all_ages,All Ages,0,36500,Applicable to all pediatric age groups
+9,premature,Premature,-90,0,Premature infant born before 37 weeks gestation
+10,late_infant,Late Infant,180,365,Infant from 6 months to 12 months
+11,early_childhood,Early Childhood,366,2190,Child from 1 year to 6 years
+12,middle_childhood,Middle Childhood,2191,4380,Child from 6 years to 12 years

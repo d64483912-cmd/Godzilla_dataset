@@ -1,0 +1,5 @@
+id,message_id,query_type,keywords,medical_category,age_group,urgency_level,created_at
+550e8400-e29b-41d4-a716-446655440601,550e8400-e29b-41d4-a716-446655440501,symptoms,"{""cough"",""wheezing"",""respiratory""}",respiratory,preschool,moderate,2024-01-01T10:30:00Z
+550e8400-e29b-41d4-a716-446655440602,550e8400-e29b-41d4-a716-446655440503,medication,"{""acetaminophen"",""dosing"",""fever""}",pharmacology,infant,routine,2024-01-01T14:15:00Z
+550e8400-e29b-41d4-a716-446655440603,550e8400-e29b-41d4-a716-446655440505,diagnosis,"{""head injury"",""trauma"",""pediatric""}",emergency,toddler,high,2024-01-01T16:45:00Z
+550e8400-e29b-41d4-a716-446655440604,550e8400-e29b-41d4-a716-446655440507,symptoms,"{""dehydration"",""signs"",""infant""}",general,infant,moderate,2024-01-01T09:20:00Z
