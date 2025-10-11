@@ -1,0 +1,6 @@
+id,query_id,urgency_level,medical_specialty,complexity_score,classification_confidence,auto_classified,reviewed_by,created_at
+550e8400-e29b-41d4-a716-446655441701,1,moderate,pulmonology,3,0.92,true,,2024-01-01T10:30:00Z
+550e8400-e29b-41d4-a716-446655441702,2,routine,pediatrics,1,0.98,true,,2024-01-01T14:15:00Z
+550e8400-e29b-41d4-a716-446655441703,3,high,emergency,4,0.94,true,,2024-01-01T16:45:00Z
+550e8400-e29b-41d4-a716-446655441704,4,moderate,pediatrics,2,0.96,true,,2024-01-01T09:20:00Z
+550e8400-e29b-41d4-a716-446655441705,5,routine,psychiatry,3,0.88,true,expert_reviewer_001,2024-01-01T13:00:00Z

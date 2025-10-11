@@ -1,0 +1,21 @@
+id,created_at,brand_name,generic_name,drug_class,therapeutic_category
+1,2024-01-01T00:00:00Z,Tylenol,acetaminophen,Analgesic,Pain Relief
+2,2024-01-01T00:00:00Z,Motrin,ibuprofen,NSAID,Anti-inflammatory
+3,2024-01-01T00:00:00Z,Amoxil,amoxicillin,Penicillin,Antibiotic
+4,2024-01-01T00:00:00Z,Augmentin,amoxicillin-clavulanate,Penicillin Combination,Antibiotic
+5,2024-01-01T00:00:00Z,Zithromax,azithromycin,Macrolide,Antibiotic
+6,2024-01-01T00:00:00Z,Rocephin,ceftriaxone,Cephalosporin,Antibiotic
+7,2024-01-01T00:00:00Z,Ventolin,albuterol,Beta-2 Agonist,Bronchodilator
+8,2024-01-01T00:00:00Z,Flovent,fluticasone,Corticosteroid,Anti-inflammatory
+9,2024-01-01T00:00:00Z,EpiPen,epinephrine,Adrenergic Agonist,Emergency
+10,2024-01-01T00:00:00Z,Benadryl,diphenhydramine,Antihistamine,Allergy
+11,2024-01-01T00:00:00Z,Zyrtec,cetirizine,Antihistamine,Allergy
+12,2024-01-01T00:00:00Z,Claritin,loratadine,Antihistamine,Allergy
+13,2024-01-01T00:00:00Z,Prednisolone,prednisolone,Corticosteroid,Anti-inflammatory
+14,2024-01-01T00:00:00Z,Mylicon,simethicone,Anti-foaming Agent,Digestive
+15,2024-01-01T00:00:00Z,Pedialyte,electrolyte solution,Electrolyte Replacement,Hydration
+16,2024-01-01T00:00:00Z,Tamiflu,oseltamivir,Neuraminidase Inhibitor,Antiviral
+17,2024-01-01T00:00:00Z,Miralax,polyethylene glycol,Osmotic Laxative,Digestive
+18,2024-01-01T00:00:00Z,Zofran,ondansetron,5-HT3 Antagonist,Antiemetic
+19,2024-01-01T00:00:00Z,Keppra,levetiracetam,Anticonvulsant,Neurological
+20,2024-01-01T00:00:00Z,Concerta,methylphenidate,Stimulant,ADHD Treatment

@@ -1,0 +1,4 @@
+id,function_name,alert_type,message,severity,is_acknowledged,acknowledged_at,created_at
+550e8400-e29b-41d4-a716-446655441201,clinical-decision-support,performance,Function response time exceeded 3000ms threshold (5000ms recorded),high,false,,2024-01-01T12:00:00Z
+550e8400-e29b-41d4-a716-446655441202,medical-search,performance,Function response time approaching threshold (1850ms),medium,true,2024-01-01T12:15:00Z,2024-01-01T12:00:00Z
+550e8400-e29b-41d4-a716-446655441203,drug-interaction-check,availability,Function completed successfully,info,true,2024-01-01T12:05:00Z,2024-01-01T12:00:00Z

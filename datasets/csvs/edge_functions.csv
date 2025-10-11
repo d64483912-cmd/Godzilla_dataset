@@ -1,0 +1,6 @@
+id,name,url,description,category,expected_response_time_ms,alert_threshold_failures,is_active,created_at,updated_at
+550e8400-e29b-41d4-a716-446655441001,medical-search,https://api.example.com/medical-search,Semantic search through medical knowledge base,search,2000,3,true,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655441002,drug-interaction-check,https://api.example.com/drug-interactions,Check for drug interactions and contraindications,safety,1500,2,true,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655441003,dosage-calculator,https://api.example.com/dosage-calc,Calculate pediatric drug dosages by weight and age,calculation,1000,3,true,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655441004,clinical-decision-support,https://api.example.com/clinical-support,Provide evidence-based clinical recommendations,clinical,3000,2,true,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655441005,learning-analytics,https://api.example.com/learning-analytics,Track and analyze user learning progress,analytics,2500,5,true,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z

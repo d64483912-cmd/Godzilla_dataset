@@ -1,0 +1,7 @@
+id,grade_code,grade_name,description,requirements,color_hex,sort_order,created_at
+550e8400-e29b-41d4-a716-446655440001,A,High Quality Evidence,High confidence that the estimate of effect lies close to the true effect,"{""Systematic review of RCTs"",""Large sample size"",""Low risk of bias"",""Consistent results""}",#2E7D32,1,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440002,B,Moderate Quality Evidence,Moderate confidence in the effect estimate,"{""RCTs with limitations"",""Observational studies with strong associations"",""Moderate sample size""}",#1976D2,2,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440003,C,Low Quality Evidence,Limited confidence in the effect estimate,"{""Observational studies"",""Case-control studies"",""Small sample size"",""Some risk of bias""}",#F57C00,3,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440004,D,Very Low Quality Evidence,Very limited confidence in the effect estimate,"{""Case series"",""Expert opinion"",""High risk of bias"",""Inconsistent results""}",#D32F2F,4,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440005,E,Expert Opinion,Based on clinical experience and expert consensus,"{""Professional guidelines"",""Clinical experience"",""Theoretical rationale""}",#7B1FA2,5,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440006,I,Insufficient Evidence,Inadequate evidence to determine effectiveness,"{""Limited studies"",""Conflicting results"",""Poor quality evidence""}",#424242,6,2024-01-01T00:00:00Z
