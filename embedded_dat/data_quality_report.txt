@@ -1,0 +1,136 @@
+Nelson-GPT Knowledge Data Quality Report
+
+Total rows: 9068
+
+Field population percentages:
+- chapter: 100.00% non-empty
+- section: 100.00% non-empty
+- topic: 100.00% non-empty
+- subtopic: 93.20% non-empty
+- content_summary: 100.00% non-empty
+- page_number: 100.00% non-empty
+- category: 99.44% non-empty
+- keywords: 99.71% non-empty
+- chunk_text: 100.00% non-empty
+
+Category distribution (top 20):
+- Infectious Diseases: 2116
+- Gastroenterology: 985
+- Pharmacology: 950
+- Neurology: 919
+- Cardiology: 608
+- Pulmonology: 485
+- Orthopedics: 476
+- Development: 438
+- Oncology: 430
+- Surgery: 302
+- Nephrology: 289
+- Endocrinology: 223
+- Dermatology: 191
+- Hematology: 126
+- Nutrition: 125
+- Emergency Medicine: 108
+- Genetics: 74
+- Growth: 67
+- (empty): 51
+- Immunology: 50
+
+First 10 rows
+[0] chapter=Page 1 | section=Page 1 | topic=textbook | subtopic=Clinical Features | page=1 | category= | keywords=disease,treatment,diagnosis,pain,diseases,neurocritical
+summary: nelson textbook of pediatrics robert m kliegman joseph w st geme iii nathan j blum robert c tasker karen m wilson abigail m schuh cara l mack edition volume elsevier in memory dr richard behrman successfully served as editor of the nelson textbook of pediatrics for editions spanning over decades but
+
+[1] chapter=Page 1 | section=Page 1 | topic=pulmonary | subtopic=Clinical Features | page=1 | category=Pulmonology | keywords=syndrome,disease,disorder,laboratory,hepatology,diseases,enteroviruses,pneumonia,pneumothorax,pneumomediastinum
+summary: a lawrence professor of pediatrics vicechair for clinical and translational research department of pediatrics university of rochester school of medicine and dentistry codirector clinical and translational science institute chief research officer ur medicine golisano childrens hospital rochester new 
+
+[2] chapter=Page 2 | section=Page 2 | topic=involving | subtopic=Clinical Features | page=2 | category=Pulmonology | keywords=lung,tissue,bone,disease,tumor,disorder,test,laboratory,surgery,appendicitis
+summary: cornell medical college adjunct associate clinical professor columbia university vagelos college of physicians and surgeons new york new york senior visiting fellow yale law school new haven connecticut gay lesbian and bisexual adolescents molly c adrian phd associate professor of psychiatry and beh
+
+[3] chapter=Page 2 | section=Page 2 | topic=section of gastrointestinal | subtopic=Clinical Features | page=2 | category=Oncology | keywords=tissue,bone,syndrome,disease,deficiency,cancer,administration,therapy,drug,imaging
+summary: section of gastrointestinal and hepatic imaging childrens hospital of philadelphia philadelphia pennsylvania inflammatory bowel disease brian s appleby md professor of neurology psychiatry and pathology case western reserve university school of medicine director national prion disease pathology surv
+
+[4] chapter=Page 3 | section=Page 3 | topic=and john moore | subtopic=Clinical Features | page=3 | category=Gastroenterology | keywords=liver,disease,disorder,test,assessment,laboratory,transplant,surgery,immunology,asthma
+summary: and john moore lee chair in pediatrics professor of pediatrics and allergy immunology and pulmonary medicine scientific director center for clinical and translational research vanderbilt university school of medicine attending physician division of pediatric allergy and immunology monroe carell jr c
+
+[5] chapter=Page 3 | section=Page 3 | topic=only no other | subtopic=Clinical Features | page=3 | category=Pharmacology | keywords=syndrome,disease,dysfunction,disorder,drug,vaccine,immunology,nonbacterial,diseases,neurology
+summary: only no other uses without permission copyright elsevier inc all rights reserved viii contributors aleena banerji md associate professor of medicine drug and vaccine allergy center of excellence director of clinical care clinical director allergy and immunology unit massachusetts general hospital bo
+
+[6] chapter=Page 4 | section=Page 4 | topic=congenital | subtopic=Clinical Features | page=4 | category=Cardiology | keywords=heart
+summary: north carolina school of medicine chapel hill north carolina positive parenting and support edward m behrens md associate professor of pediatrics joseph lee hollander chair in pediatric rheumatology university of pennsylvania perelman school of medicine chief division of rheumatology childrens hospi
+
+[7] chapter=Page 4 | section=Page 4 | topic=ophthalmology | subtopic=Clinical Features | page=4 | category=Pulmonology | keywords=lung,liver,syndrome,disease,deficiency,cancer,disorder,treatment,transplant,immunology
+summary: ophthalmology new york eye and ear infirmary mount sinai school of medicine new york new york associate professor department of ophthalmology hackensack meridian school of medicine nutley new jersey ocular allergies leonard bielory md professor of medicine allergy immunology and ophthalmology hacken
+
+[8] chapter=Page 5 | section=Page 5 | topic=medical college of | subtopic=Clinical Features | page=5 | category=Oncology | keywords=blood,liver,vessel,bone,disease,deficiency,cancer,disorder,vaccine,transplant
+summary: medical college of wisconsin milwaukee wisconsin plastic bronchitis alexandra j borst md clinical assistant professor of pediatrics university of pennsylvania perelman school of medicine attending physician division of hematology childrens hospital of philadelphia philadelphia pennsylvania complex v
+
+[9] chapter=Page 5 | section=Page 5 | topic=adolescent | subtopic=Clinical Features | page=5 | category=Infectious Diseases | keywords=brain,lung,liver,heart,disease,tumor,failure,disorder,interaction,test
+summary: professor of orthopedics and sports medicine university of washington school of medicine division of adolescent medicine department of orthopedics and sports medicine seattle childrens hospital seattle washington substance use disorder adolescent pregnancy carolyn f bridgemohan md associate professo
+
+
+Middle 10 rows
+[4529] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=people | subtopic=Clinical Features | page=2265 | category=Pharmacology | keywords=disease,deficiency,disorder,dose,therapy,medication,drug,seizure,psychosis,httpswwwnccdcgovtravelyellowbooktravelrelatedinfectiousdiseasesmalaria
+summary: in the malarious area and for wk after leaving such areas contraindicated in people allergic to mefloquine or related compounds quinine quinidine and in people with active depression a recent history of depression generalized anxiety disorder psychosis schizophrenia other major psychiatric disorders
+
+[4530] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=people | subtopic= | page=2266 | category=Pharmacology | keywords=stomach,infection,disorder,antibiotic,medication,drug,side effect,seizure,renal,infections
+summary: for lastminute travelers because the drug is started days before travel some people prefer to take a daily medicine good choice for shorter trips because the traveler takes the medicine for only days after traveling rather than wk well tolerated side effects uncommon pediatric tablets are available 
+
+[4531] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=cannot | subtopic=Clinical Features | page=2266 | category=Pharmacology | keywords=stomach,disease,deficiency,disorder,medication,drug,test,httpswwwnccdcgovtravelyellowbooktravelrelatedinfectiousdiseasesmalaria,diseases
+summary: wk before travel some people would rather not take a weekly medication for short trips some people would rather not take medication for wk after travel primaquine it is the most effective medicine for preventing p vivax so it is a good choice for travel to places with p vivax good choice for shorter
+
+[4532] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=malaria | subtopic=Treatment | page=2267 | category=Pharmacology | keywords=deficiency,infection,disorder,dose,treatment,therapy,medication,drug,side effect,vaccine
+summary: does not have a pediatric formulation and has an unpleasant taste that usually requires that the cut tablet be disguised in another food such as chocolate syrup mefloquine should not be given to children if they have a known hypersensitivity to mefloquine are receiving cardiotro pic drugs have a his
+
+[4533] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=babesia | subtopic=Clinical Features | page=2267 | category=Infectious Diseases | keywords=vaccine,babesiosis
+summary: dihydroartemisinin piperaquine reduces their risk of readmission and death and this intervention is under consideration for standard treatment of severe anemia in children in several african countries the first malaria vaccine to have any degree of efficacy is the rtss vaccine which is based on the 
+
+[4534] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=babesiosis | subtopic=Clinical Features | page=2268 | category=Oncology | keywords=babesiosis
+summary: transmitted through blood transfusion and b microti has been one of the most frequently reported transfusion transmitted microbial agents in the united states rarely babesiosis is acquired by transplacental transmission or organ transplantation in the united states human b microti infection is endem
+
+[4535] chapter=The Digestive System | section=Embryology, Anatomy, and Function of the Esophagus | topic=babesiosis | subtopic=Clinical Features | page=2268 | category=Gastroenterology | keywords=babesiosis,infection
+summary: with cases of lyme disease and cases of babesio sis are depicted in gray no county reported cases of babesiosis but cases of lyme disease adapted from diukwasser m vannier e krause pj coinfection by ixodes tickborne pathogens ecological epidemio logical and clinical consequences trends parasitol hum
+
+[4536] chapter=The Digestive System | section=5 | topic=babesiosis | subtopic=Diagnosis | page=2269 | category=Infectious Diseases | keywords=babesiosis,infection,diagnosis
+summary: smears may be examined but the organisms may be mistaken for stain precipitate or iron inclusion bodies polymerase chain reaction pcr is a sensitive and specific test for detection of babesia dna and can be used in addition to or instead of blood smear to confirm the diagnosis serologic testing can 
+
+[4537] chapter=The Digestive System | section=5 | topic=gondii | subtopic=Clinical Features | page=2269 | category=Infectious Diseases | keywords=infection
+summary: be accomplished by avoiding areas where ticks deer and mice are known to thrive use of clothing that covers the downloaded for mohamed ahmed drmmsgmailcom at university of southern california from clinicalkeycom by elsevier on april for personal use only no other uses without permission copyright el
+
+[4538] chapter=The Digestive System | section=Congenital Anomalies | topic=oocysts | subtopic=Clinical Features | page=2270 | category=Infectious Diseases | keywords=brain,organ,tissue,intestine,disease,infection,test,anomalies,nonimmune,infections
+summary: tachyzoite replicative phase of the cell cycle in recent years critical transcription factors that can distinguish toxoplasma brady zoites from tachyzoites and merozoites have been identified oocysts are another form of the parasite and are formed in the cat intes tine see fig d newly infected nonim
+
+
+Last 10 rows
+[9058] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e15 | topic=deficiency | subtopic=Clinical Features | page=4530 | category=Infectious Diseases | keywords=acidemia,infection
+summary: setting is and the pv of a negative result is not much different from the assumption table american college of medical genetics core panel of neonatal screening tests isovalericacidemia glutaric aciduria type hydroxymethylglutaricaciduria multiple coenzyme a coa carboxylase deficiency methylmalonic 
+
+[9059] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e15 | topic=screening | subtopic=Clinical Features | page=4530 | category=Infectious Diseases | keywords=diagnosis
+summary: lyme disease makes it difficult to ensure a high prevalence of disease in persons to be tested sec ond the most appropriate antibodies to be detected are imperfectly defined leading to a wide variety of tests with varying falsepositive and falsenegative rates third the natural history of the antibod
+
+[9060] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e17 | topic=screening | subtopic=Clinical Features | page=4531 | category=Gastroenterology | keywords=blood,liver,organ,disease,inflammation,disorder,treatment,test,diagnosis,assessment
+summary: pm kosrok mr rock mj et al early diagnosis of cystic fibrosis through neonatal screening prevents severe malnutrition and improves longterm growth pediatrics galen rs gambino sr beyond normality new york academic press hu lt klempner ms update on the prevention diagnosis and treatment of lyme diseas
+
+[9061] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e17 | topic=blood | subtopic=Clinical Features | page=4531 | category=Neurology | keywords=chromatography
+summary: nano n pico p femto f table abbreviations for specimens in table s serum p plasma h heparin lih lithium heparin e ethylenediaminetetraacetic acid edta c citrate o oxalate w whole blood nhh ammonium heparinate table abbreviations used in table ab absorbance au arbitrary unit bb brain isoenzyme of cre
+
+[9062] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e17 | topic=reference | subtopic=Clinical Features | page=4532 | category=Surgery | keywords=test,differential,laboratory,procedure,hormone
+summary: mohamed ahmed drmmsgmailcom at university of southern california from clinicalkeycom by elsevier on april for personal use only no other uses without permission copyright elsevier inc all rights reserved e part xxxiii u laboratory medicine table reference intervalscontd analyte or procedure specimen
+
+[9063] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e17 | topic=newborn | subtopic=Clinical Features | page=4532 | category=Pharmacology | keywords=blood,dose,test,laboratory,procedure,diabetes
+summary: yr todd units todd units aspartate transaminase aminotransferase ast sgot s ul ul days m cg soldin savwoir guo lockitch halstead albersheim f days mo yr yr yr yr m f base excess wh mmoll mmoll newborn infant child thereafter bicarbonate sp mmoll mmoll arterial venous bilirubin total s mgdl moll newb
+
+[9064] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e19 | topic=reference | subtopic=Clinical Features | page=4533 | category=Surgery | keywords=immunoglobulin
+summary: ahmed drmmsgmailcom at university of southern california from clinicalkeycom by elsevier on april for personal use only no other uses without permission copyright elsevier inc all rights reserved chapter u reference intervals for laboratory tests and procedures e table reference intervalscontd analy
+
+[9065] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e19 | topic=days | subtopic=Clinical Features | page=4533 | category=Pharmacology | keywords=blood,dose,test,laboratory,procedure,thyroidstimulating,hormone
+summary: acid w yr mmoll mmoll pianosi et al sodium sp lih nhh mmoll mmoll newborn ggreeley et al infant child thereafter thyroidstimulating hormone tsh s miul miul days gdugaw et al days mo mo yr thyrotropinreleasing hormone trh p pgml pmoll thyroxinebinding globulin tbg s mgdl mgl cord blood wk mo yr yr yr
+
+[9066] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e19 | topic=clin | subtopic=Diagnosis | page=4534 | category=Pharmacology | keywords=diabetes
+summary: crawford jd terry me rourke gm simplification of drug dosage calculation by application of the surface area principle pedi atrics note that the adult dose is for a patient weighing approximately lb and having a surface area of approxi mately m from talbot nb richie rh crawford jh metabolic homeostas
+
+[9067] chapter=Laboratory Medicine | section=Reference Intervals for Laboratory Tests and Procedures 4472.e19 | topic=reference | subtopic=Clinical Features | page=4534 | category=Cardiology | keywords=blood,heart,disease,laboratory,monitoring,diseases,acidosis
+summary: s et al age and sexspecific pediatric ref erence intervals for biochemistry analytes as measured with the ektachem analyzer clin chem lockitch g halstead ac quigley g et al age and sexspecific pediatric reference intervals study design and methods illustrated by measurement of serum proteins with th
+
+
+Validations:
+- schema_columns: ['chapter', 'section', 'topic', 'subtopic', 'content_summary', 'page_number', 'category', 'keywords', 'chunk_text']
+- rows_match_source: True

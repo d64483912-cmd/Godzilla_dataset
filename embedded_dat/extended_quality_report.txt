@@ -1,0 +1,129 @@
+Extended Quality Report for nelson_gpt_knowledge.csv
+
+Total rows: 9068
+
+Keyword Vocabulary Analysis:
+- Unique keywords: 1382
+- Avg keywords per row: 4.36
+- Median keywords per row: 3
+- Rows with >=8 keywords: 28.01%
+- Top 50 keywords:
+  • syndrome: 1753
+  • disease: 1535
+  • infection: 1496
+  • treatment: 1427
+  • diagnosis: 1422
+  • disorder: 1232
+  • test: 1065
+  • therapy: 909
+  • blood: 790
+  • liver: 774
+  • dose: 652
+  • bone: 644
+  • organ: 643
+  • drug: 637
+  • heart: 618
+  • medication: 528
+  • failure: 517
+  • infections: 515
+  • tissue: 486
+  • brain: 476
+  • lung: 465
+  • deficiency: 440
+  • intervention: 435
+  • evaluation: 431
+  • muscle: 425
+  • diseases: 421
+  • pain: 404
+  • fever: 370
+  • examination: 364
+  • assessment: 351
+  • renal: 299
+  • administration: 297
+  • dysfunction: 285
+  • antibiotic: 281
+  • monitoring: 252
+  • diarrhea: 248
+  • nerve: 248
+  • screening: 246
+  • surgery: 242
+  • interaction: 236
+  • anemia: 233
+  • procedure: 232
+  • tumor: 228
+  • imaging: 226
+  • vaccine: 222
+  • laboratory: 213
+  • vomiting: 212
+  • autosomal: 211
+  • anomalies: 211
+  • seizure: 209
+- Potentially generic keywords present and their counts:
+  • disease: 1535
+  • treatment: 1427
+  • diagnosis: 1422
+  • therapy: 909
+  • pain: 404
+
+Confusion Matrix (Category vs Chapter):
+- Full matrix saved to: /project/workspace/d64483912-cmd/Godzilla_dataset/embedded_dat/category_vs_chapter.csv
+- Top 15 chapters by rows:
+  • Infectious Diseases: 1288
+  • The Digestive System: 592
+  • The Nervous System: 478
+  • The Respiratory System: 442
+  • The Endocrine System: 388
+  • Bone and Joint Disorders: 386
+  • The Cardiovascular System: 384
+  • Emergency Medicine, Critical Care, and Anesthesia: 382
+  • Metabolic Disorders: 374
+  • The Skin: 338
+  • Diseases of the Blood: 320
+  • The Field of Pediatrics: 270
+  • The Fetus and the Neonatal Infant: 266
+  • Neuromuscular Disorders: 234
+  • Immunology: 226
+- Top 15 categories by rows:
+  • Infectious Diseases: 2116
+  • Gastroenterology: 985
+  • Pharmacology: 950
+  • Neurology: 919
+  • Cardiology: 608
+  • Pulmonology: 485
+  • Orthopedics: 476
+  • Development: 438
+  • Oncology: 430
+  • Surgery: 302
+  • Nephrology: 289
+  • Endocrinology: 223
+  • Dermatology: 191
+  • Hematology: 126
+  • Nutrition: 125
+
+Null/Fill Patterns by Chapter:
+- Full table saved to: /project/workspace/d64483912-cmd/Godzilla_dataset/embedded_dat/null_patterns_by_chapter.csv
+- Chapters with lowest subtopic fill rate (>=50 rows):
+  • The Field of Pediatrics: rows=270, subtopic_nonempty=81.85%
+  • Fluid and Electrolyte Disorders: rows=100, subtopic_nonempty=85.0%
+  • Emergency Medicine, Critical Care, and Anesthesia: rows=382, subtopic_nonempty=87.17%
+  • The Ear: rows=86, subtopic_nonempty=87.21%
+  • Human Genetics: rows=152, subtopic_nonempty=89.47%
+  • The Nervous System: rows=478, subtopic_nonempty=89.96%
+  • Immunology: rows=226, subtopic_nonempty=90.27%
+  • The Endocrine System: rows=388, subtopic_nonempty=90.46%
+  • Environmental Health: rows=128, subtopic_nonempty=90.62%
+  • Behavioral and Psychiatric Disorders: rows=170, subtopic_nonempty=91.18%
+  • The Cardiovascular System: rows=384, subtopic_nonempty=91.93%
+  • Adolescent Medicine: rows=188, subtopic_nonempty=92.02%
+  • Disorders of the Eye: rows=146, subtopic_nonempty=92.47%
+  • The Respiratory System: rows=442, subtopic_nonempty=92.53%
+  • Allergic Disorders: rows=194, subtopic_nonempty=93.3%
+  • Urologic Disorders in Infants and Children: rows=112, subtopic_nonempty=93.75%
+  • Bone and Joint Disorders: rows=386, subtopic_nonempty=94.04%
+  • Infectious Diseases: rows=1288, subtopic_nonempty=94.18%
+  • The Digestive System: rows=592, subtopic_nonempty=94.26%
+  • The Skin: rows=338, subtopic_nonempty=94.67%
+
+Suspicious chapter labels:
+- Rows with chapter like 'Page N': 88
+  Suggest mapping early pages to the nearest section/chapter if available, or mark as Front Matter.
